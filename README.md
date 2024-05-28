@@ -10,7 +10,7 @@ Aquest repositori conté els següents apartats:
 
 ### Tailwind CSS i Next.js
 
-Per a la creació de la pàgina web, hem utilitzat Tailwind CSS i Next.js. Aquestes tecnologies ens han permès desenvolupar una interfície responsive de manera eficient.
+Per a la creació de la pàgina web, hem utilitzat Tailwind CSS i Next.js. Aquestes dues tecnologies ens han permes desenvolupar una pagina web amb components aprofitant la tecnologia de tailwind CSS que ens permet assignar classes predefinides d'estil, aconseguint un codi més simple i un estil més aconseguit.
 
 - **Tailwind CSS**: Ens ha facilitat la implementació d'estils i disseny responsivo amb el seu sistema de classes utilitàries. Això ens ha permès crear una experiència d'usuari coherent en diferents dispositius sense escriure CSS personalitzat.
 - **Next.js**: Aquest framework de React ens ha ajudat a crear una aplicació web ràpida i escalable. El seu sistema de rutes i la generació de pàgines estàtiques han millorat significativament la performance i el SEU de la nostra web.
@@ -30,7 +30,7 @@ Hem utilitzat PostgreSQL com a base de dades. Inicialment, desenvolupem i provem
 La API suporta diverses peticions que permeten interactuar amb la base de dades i altres serveis del backend. A continuació, es descriuen algunes de les principals peticions:
 
 - **GET**: Per a obtenir dades específiques des de la base de dades.
-- *POST**: Per a enviar dades noves a la base de dades.
+- **POST**: Per a enviar dades noves a la base de dades.
 - **PUT**: Per a actualitzar dades existents.
 - **DELETE**: Per a eliminar dades de la base de dades.
 
