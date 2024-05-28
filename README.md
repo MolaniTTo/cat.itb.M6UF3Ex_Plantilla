@@ -1,43 +1,43 @@
-# Descripción del Repositorio
+# Descripció del Repositori
 
-Este repositorio contiene los siguientes apartados:
+Aquest repositori conté els següents apartats:
 
-1. Descripción del proyecto
-2. Tecnologías utilizadas
-3. Instrucciones de uso
+1. Descripció del projecte
+2. Tecnologies utilitzades
+3. Instruccions d'ús
 
-## Tecnologías Utilizadas
+## Tecnologies Utilitzades
 
-### Tailwind CSS y Next.js
+### Tailwind CSS i Next.js
 
-Para la creación de la página web, hemos utilizado Tailwind CSS y Next.js. Estas tecnologías nos han permitido desarrollar una interfaz responsive de manera eficiente. 
+Per a la creació de la pàgina web, hem utilitzat Tailwind CSS i Next.js. Aquestes tecnologies ens han permès desenvolupar una interfície responsive de manera eficient.
 
-- **Tailwind CSS**: Nos ha facilitado la implementación de estilos y diseño responsivo con su sistema de clases utilitarias. Esto nos ha permitido crear una experiencia de usuario coherente en diferentes dispositivos sin escribir CSS personalizado.
-- **Next.js**: Este framework de React nos ha ayudado a crear una aplicación web rápida y escalable. Su sistema de rutas y la generación de páginas estáticas han mejorado significativamente la performance y el SEO de nuestra web.
+- **Tailwind CSS**: Ens ha facilitat la implementació d'estils i disseny responsivo amb el seu sistema de classes utilitàries. Això ens ha permès crear una experiència d'usuari coherent en diferents dispositius sense escriure CSS personalitzat.
+- **Next.js**: Aquest framework de React ens ha ajudat a crear una aplicació web ràpida i escalable. El seu sistema de rutes i la generació de pàgines estàtiques han millorat significativament la performance i el SEU de la nostra web.
 
-### API con Node.js
+### API amb Node.js
 
-La API del proyecto ha sido implementada utilizando Node.js. Aunque Node.js no trabaja directamente con objetos, hemos estructurado nuestro código dividiéndolo en clases para mantener un código organizado y modular.
+La API del projecte ha estat implementada utilitzant Node.js. Encara que Node.js no treballa directament amb objectes, hem estructurat el nostre codi dividint-lo en classes per a mantenir un codi organitzat i modular.
 
-### Base de Datos PostgreSQL
+### Base de dades PostgreSQL
 
-Hemos utilizado PostgreSQL como base de datos. Inicialmente, desarrollamos y probamos nuestra base de datos en un entorno local. Posteriormente, migramos a un entorno cloud utilizando ElephantSQL para mejorar la accesibilidad y escalabilidad de nuestra aplicación.
+Hem utilitzat PostgreSQL com a base de dades. Inicialment, desenvolupem i provem la nostra base de dades en un entorn local. Posteriorment, migrem a un entorn cloud utilitzant ElephantSQL per a millorar l'accessibilitat i escalabilitat de la nostra aplicació.
 
-## Instrucciones de Uso
+## Instruccions d'Ús
 
-### Peticiones de la API
+### Peticions de la API
 
-La API soporta diversas peticiones que permiten interactuar con la base de datos y otros servicios del backend. A continuación, se describen algunas de las principales peticiones:
+La API suporta diverses peticions que permeten interactuar amb la base de dades i altres serveis del backend. A continuació, es descriuen algunes de les principals peticions:
 
-- **GET**: Para obtener datos específicos desde la base de datos.
-- **POST**: Para enviar datos nuevos a la base de datos.
-- **PUT**: Para actualizar datos existentes.
-- **DELETE**: Para eliminar datos de la base de datos.
+- **GET**: Per a obtenir dades específiques des de la base de dades.
+- *POST**: Per a enviar dades noves a la base de dades.
+- **PUT**: Per a actualitzar dades existents.
+- **DELETE**: Per a eliminar dades de la base de dades.
 
-### Conexión de la API a Unity
+### Connexió de la API a Unity
 
-Para conectar la API a Unity, hemos implementado un sistema que permite realizar peticiones HTTP desde Unity a nuestra API. Esto nos permite que la aplicación de Unity pueda interactuar directamente con el backend, obteniendo y enviando información en tiempo real.
+Per a connectar la API a Unity, hem implementat un sistema que permet realitzar peticions HTTP des de Unity a nostra API. Això ens permet que l'aplicació de Unity pugui interactuar directament amb el backend, obtenint i enviant informació en temps real.
 
 ### Corutinas en Unity
 
-En Unity, hemos utilizado corutinas para gestionar las llamadas a la API de manera asíncrona. Las corutinas nos permiten ejecutar operaciones en segundo plano sin bloquear el hilo principal, mejorando así la fluidez y performance de nuestra aplicación. Por ejemplo, una corutina puede gestionar una petición GET a la API, esperar la respuesta y luego actualizar la interfaz del usuario con los datos recibidos.
+En Unity, hem utilitzat corutinas per a gestionar les anomenades a la API de manera asíncrona. Les corutinas ens permeten executar operacions en segon pla sense bloquejar el fil principal, millorant així la fluïdesa i performance de la nostra aplicació. Per exemple, una corutina pot gestionar una petició GET a la API, esperar la resposta i després actualitzar la interfície de l'usuari amb les dades rebudes.
