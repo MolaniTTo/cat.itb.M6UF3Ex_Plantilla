@@ -12,8 +12,8 @@ Aquest repositori conté els següents apartats:
 
 Per a la creació de la pàgina web, hem utilitzat Tailwind CSS i Next.js. Aquestes dues tecnologies ens han permes desenvolupar una pagina web amb components aprofitant la tecnologia de tailwind CSS que ens permet assignar classes predefinides d'estil, aconseguint un codi més simple i un estil més aconseguit.
 
-- **Tailwind CSS**: Ens ha facilitat la implementació d'estils i disseny responsivo amb el seu sistema de classes utilitàries. Això ens ha permès crear una experiència d'usuari coherent en diferents dispositius sense escriure CSS personalitzat.
-- **Next.js**: Aquest framework de React ens ha ajudat a crear una aplicació web ràpida i escalable. El seu sistema de rutes i la generació de pàgines estàtiques han millorat significativament la performance i el SEU de la nostra web.
+- **Tailwind CSS**: Ens ha facilitat la implementació d'estils i disseny responsive amb el seu sistema de classes predefinides. Això ens ha permès crear una experiència d'usuari coherent en diferents dispositius sense escriure CSS personalitzat i dens.
+- **Next.js**: Aquest framework de React ens ha ajudat a crear una aplicació web ràpida i escalable, hem aplicat els coneixements sobre components amb aquest framework.
 
 ### API amb Node.js
 
